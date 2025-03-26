@@ -344,3 +344,9 @@ footer {
   width: 100%;
   text-align: center;
 }
+
+.speaker-icon, .pause-icon, .cancel-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
