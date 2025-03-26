@@ -17,9 +17,8 @@ header {
     background: linear-gradient(135deg, #2E8B57, #00D4FF);
     color: white;
     padding: 25px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
-    font-family: "Algerian", serif;
     text-transform: uppercase;
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
     box-shadow: 0 5px 20px rgba(0, 212, 255, 0.2);
@@ -37,6 +36,8 @@ header {
 /* Modern Glassmorphic Feature Cards */
 .feature {
     background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 20px;
@@ -77,7 +78,7 @@ header {
 /* Crop Analysis Section (Special Highlight) */
 #analysis-section {
     width: 70%;
-    max-width: 400px;
+    max-width: 700px;
     margin: 50px auto;
     padding: 25px;
     background: rgba(255, 255, 255, 0.8);
@@ -103,7 +104,6 @@ header {
     width: 80%;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -161,19 +161,4 @@ header {
 #weather-section:hover, #chatbot-section:hover, #disease-section:hover, #news-section:hover {
     background: rgba(76, 175, 80, 0.1);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-footer{
-    /* background: linear-gradient(135deg, #2E8B57, #00D4FF); */
-    background-color: #0d1117;
-    color: white;
-    padding: 25px;
-    font-size: 1rem;
-    /* font-style: oblique; */
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
-    box-shadow: 0 5px 20px rgba(0, 212, 255, 0.2);
-}
-h3{
-    font-size: 2rem;
 }
