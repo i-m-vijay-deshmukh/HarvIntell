@@ -136,7 +136,7 @@ footer {
     border: 2px solid #00eaff;
     border-radius: 5px;
     background: rgba(0, 0, 0, 0.8); /* Dark futuristic input */
-    color: rgb(0, 0,0,0.8);
+    color: #ffffff;
     outline: none;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 234, 255, 0.4);
